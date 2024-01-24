@@ -1,0 +1,18 @@
+ curl -X POST -H "Content-Type: multipart/form-data" -F "file=@C:/Users/John-Mejia/Documents/programacion/inner-consulting/microservicios/prueba.txt" http://localhost:8080/app-minio/upload
+
+curl -OJ http://localhost:8080/app-minio/download/prueba.txt
+curl -OJ -N -o "ruta/completa/del/archivo/prueba.txt" http://localhost:8080/app-minio/download/prueba.txt
+   
+para especificar donde guardar
+
+
+
+
+
+
+
+
+
+
+
+
